@@ -66,11 +66,6 @@ devops-scraper/ ├── Dockerfile # Multi-stage Docker build (Node.js + Pytho
 - It uses **multi-stage Docker builds** to keep the final image lean.
 - You can customize the scraped URL by passing it via the `SCRAPE_URL` environment variable when running the container.
 
-###  Example Use Case
 
-You can use this setup to:
-- Periodically scrape headlines or metadata from news websites
-- Extract and serve lightweight previews for any URL
-- Demonstrate browser automation combined with API hosting in a compact, containerized format
 
 
