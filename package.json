@@ -1,0 +1,14 @@
+
+{
+    "name": "scraper",
+    "version": "1.0.0",
+    "description": "A simple Node.js scraper using Puppeteer to extract title and heading from a web page.",
+    "main": "scrape.js",
+    "type": "module",
+    "scripts": {
+      "start": "node scrape.js"
+    },
+    "dependencies": {
+      "puppeteer": "^21.3.8"
+    }
+  }
